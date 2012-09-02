@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Assets::add_module_css('$1', '$2');
+]]></content>	
+	<tabTrigger>add_mod_css</tabTrigger>	
+	<scope>source.php</scope>
+	<description>Bonfire - Assets Add Module CSS</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Assets::add_module_js('$1', '$2');
+]]></content>	
+	<tabTrigger>add_mod_js</tabTrigger>	
+	<scope>source.php</scope>
+	<description>Bonfire - Assets Add Module JS</description>
+</snippet>

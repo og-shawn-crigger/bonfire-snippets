@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Template::set(${1:$data});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>set_data</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+	<description>Bonfire - Set Template Data</description>
+</snippet>

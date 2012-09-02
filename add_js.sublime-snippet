@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Assets::add_js($1);
+]]></content>	
+	<tabTrigger>add_js</tabTrigger>	
+	<scope>source.php</scope>
+	<description>Bonfire - Assets Add JS</description>
+</snippet>
