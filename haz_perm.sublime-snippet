@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php if (has_permission('$1')) : ?>
+
+<?php endif; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>haz_perm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Wrapper for has_permission check</description>
+</snippet>

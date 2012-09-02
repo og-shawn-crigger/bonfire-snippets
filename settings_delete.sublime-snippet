@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->settings_lib->delete('${1:name}', '$:{3:core}');	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>settings_delete</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+	<description>Deletes item from settings table</description>
+</snippet>

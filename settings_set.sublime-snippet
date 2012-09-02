@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->settings_lib->set('${1:name}', '${2:value}', '$:{3:core}');	
+]]></content>
+	<tabTrigger>settings_set</tabTrigger>
+	<scope>source.php</scope> 
+	<description>Sets item in settings table</description>
+</snippet>

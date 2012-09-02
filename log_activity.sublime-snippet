@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->activity_model->log_activity(\$this->current_user->user_id(), '$1', '${2:module}');
+]]></content>
+	<tabTrigger>log_activity</tabTrigger>
+	<scope>source.php</scope> 
+	<description>Logs activity in Bonfire.</description>
+</snippet>
