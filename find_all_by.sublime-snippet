@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$records = \$this->$1_model->find_all_by('$1', '$2');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>find_all_by</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+	<description>Finds and returns all records from Bonfire model based on field and value.</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+parent::logit($1, '${2:error]');
+]]></content>
+	
+	<tabTrigger>bflog</tabTrigger>
+	<scope>source.php</scope> 
+	<description>Bonfire Error logging for usage inside of model.</description>
+</snippet>

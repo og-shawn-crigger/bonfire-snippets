@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$result = \$this->$1_model->update('$2','$3', \$${3:data});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>update_where</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+	<description>Updates record by ID with data where field values match.</description>
+</snippet>

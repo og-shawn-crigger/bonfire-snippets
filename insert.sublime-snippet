@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-\$this->current_user->${1:id}
+\$id = \$this->$1_model->insert(\$${1:data});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cur_user</tabTrigger>
+	<tabTrigger>insert</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.php</scope>
-	<description>Bonfire - current_user</description>
+	<scope>source.php</scope> 
+	<description>Insert record into Bonfire model returns ID.</description>
 </snippet>

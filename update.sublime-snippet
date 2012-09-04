@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-\$this->current_user->${1:id}
+\$result = \$this->$1_model->update(\$${2:id}, \$${3:data});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cur_user</tabTrigger>
+	<tabTrigger>update</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.php</scope>
-	<description>Bonfire - current_user</description>
+	<scope>source.php</scope> 
+	<description>Updates record by ID with data.</description>
 </snippet>

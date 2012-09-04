@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+dump($1);die;
+]]></content>
+	
+	<tabTrigger>dad</tabTrigger>
+	<scope>source.php</scope> 
+	<description>My personal last resort dump and die.</description>
+</snippet>

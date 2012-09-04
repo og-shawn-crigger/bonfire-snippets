@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Console::log($1);
+]]></content>
+	
+	<tabTrigger>console</tabTrigger>
+	<scope>source.php</scope> 
+	<description>Uses Bonfire's Console class to log debug info to console.</description>
+</snippet>

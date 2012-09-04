@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ChromePhp::error($1);
+]]></content>
+	
+	<tabTrigger>cperror</tabTrigger>
+	<scope>source.php</scope> 
+	<description>Uses ChromePhp class to log debug info to console.</description>
+</snippet>

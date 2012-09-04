@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+logit('$1', '${2:error]');
+]]></content>
+	
+	<tabTrigger>log</tabTrigger>
+	<scope>source.php</scope> 
+	<description>Logs error using CodeIgniter error-logging and console.</description>
+</snippet>
